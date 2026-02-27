@@ -1,0 +1,18 @@
+﻿@model IEnumerable<Projectmunka.Models.Termekek>
+
+<h2>Termékek</h2>
+
+@foreach (var item in Model)
+{
+    <div style="border:1px solid gray; padding:15px; margin:10px;">
+        <img src="~/images/@item.Kep" width="150" />
+        <h3>@item.Name</h3>
+        <p>@item.Price Ft</p>
+
+        <form asp-action="Kosarba" method="post">
+            <input type="hidden" name="termekId" value="@item.Id" />
+            <input type="number" name="mennyiseg" value="1" min="1" />
+            <button type="submit">Kosárba</button>
+        </form>
+    </div>
+}

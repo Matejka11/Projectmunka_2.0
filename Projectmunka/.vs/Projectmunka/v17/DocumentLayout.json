@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\Kaposta Bence Zoltan 13.B\\Projectmunka\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE93AE9-3290-4D94-88F8-EBB8BEAFC9AC}|Projectmunka.csproj|c:\\users\\user\\documents\\kaposta bence zoltan 13.b\\projectmunka\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEE93AE9-3290-4D94-88F8-EBB8BEAFC9AC}|Projectmunka.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE93AE9-3290-4D94-88F8-EBB8BEAFC9AC}|Projectmunka.csproj|c:\\users\\user\\documents\\kaposta bence zoltan 13.b\\projectmunka\\views\\home\\belepes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEE93AE9-3290-4D94-88F8-EBB8BEAFC9AC}|Projectmunka.csproj|solutionrelative:views\\home\\belepes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE93AE9-3290-4D94-88F8-EBB8BEAFC9AC}|Projectmunka.csproj|c:\\users\\user\\documents\\kaposta bence zoltan 13.b\\projectmunka\\views\\home\\kosar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEE93AE9-3290-4D94-88F8-EBB8BEAFC9AC}|Projectmunka.csproj|solutionrelative:views\\home\\kosar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE93AE9-3290-4D94-88F8-EBB8BEAFC9AC}|Projectmunka.csproj|c:\\users\\user\\documents\\kaposta bence zoltan 13.b\\projectmunka\\views\\home\\rendeles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEE93AE9-3290-4D94-88F8-EBB8BEAFC9AC}|Projectmunka.csproj|solutionrelative:views\\home\\rendeles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE93AE9-3290-4D94-88F8-EBB8BEAFC9AC}|Projectmunka.csproj|c:\\users\\user\\documents\\kaposta bence zoltan 13.b\\projectmunka\\views\\home\\siker.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEE93AE9-3290-4D94-88F8-EBB8BEAFC9AC}|Projectmunka.csproj|solutionrelative:views\\home\\siker.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE93AE9-3290-4D94-88F8-EBB8BEAFC9AC}|Projectmunka.csproj|c:\\users\\user\\documents\\kaposta bence zoltan 13.b\\projectmunka\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEE93AE9-3290-4D94-88F8-EBB8BEAFC9AC}|Projectmunka.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Kaposta Bence Zoltan 13.B\\Projectmunka\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\Kaposta Bence Zoltan 13.B\\Projectmunka\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-27T07:41:54.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Belepes.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Kaposta Bence Zoltan 13.B\\Projectmunka\\Views\\Home\\Belepes.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Belepes.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\Kaposta Bence Zoltan 13.B\\Projectmunka\\Views\\Home\\Belepes.cshtml",
+              "RelativeToolTip": "Views\\Home\\Belepes.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-27T07:41:53.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Kosar.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Kaposta Bence Zoltan 13.B\\Projectmunka\\Views\\Home\\Kosar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Kosar.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\Kaposta Bence Zoltan 13.B\\Projectmunka\\Views\\Home\\Kosar.cshtml",
+              "RelativeToolTip": "Views\\Home\\Kosar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-27T07:41:45.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Rendeles.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Kaposta Bence Zoltan 13.B\\Projectmunka\\Views\\Home\\Rendeles.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Rendeles.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\Kaposta Bence Zoltan 13.B\\Projectmunka\\Views\\Home\\Rendeles.cshtml",
+              "RelativeToolTip": "Views\\Home\\Rendeles.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-27T07:41:43.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Siker.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Kaposta Bence Zoltan 13.B\\Projectmunka\\Views\\Home\\Siker.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Siker.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\Kaposta Bence Zoltan 13.B\\Projectmunka\\Views\\Home\\Siker.cshtml",
+              "RelativeToolTip": "Views\\Home\\Siker.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-27T07:41:43.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Kaposta Bence Zoltan 13.B\\Projectmunka\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Kaposta Bence Zoltan 13.B\\Projectmunka\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T10:20:58.607Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

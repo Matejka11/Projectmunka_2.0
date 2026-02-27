@@ -1,0 +1,16 @@
+﻿@model Projectmunka.Models.Regisztraltak
+
+<h2>Regisztráció</h2>
+
+<form asp-action="Register" method="post">
+    <input asp-for="Neve" placeholder="Név" /><br />
+    <input asp-for="email" placeholder="Email" /><br />
+    <input asp-for="password" placeholder="Jelszó" type="password" /><br />
+    <input asp-for="telefonszam" placeholder="Telefon" /><br />
+    <input asp-for="city" placeholder="Város" /><br />
+    <input asp-for="iranyitoszam" placeholder="Irányítószám" /><br />
+    <input asp-for="utca" placeholder="Utca" /><br />
+    <input asp-for="hazsyam" placeholder="Házszám" /><br />
+
+    <button type="submit">Regisztrálok</button>
+</form>
