@@ -1,6 +1,6 @@
 ﻿@model Projectmunka.Models.Regisztraltak
 
-<h2>Regisztráció</h2>
+@* <h2>Regisztráció</h2>
 
 <form asp-action="Register" method="post">
     <input asp-for="Neve" placeholder="Név" /><br />
@@ -13,4 +13,155 @@
     <input asp-for="hazsyam" placeholder="Házszám" /><br />
 
     <button type="submit">Regisztrálok</button>
-</form>
+</form> *@
+
+@{
+    ViewData["Title"] = "Regisztráció";
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<header class="border-bottom bg-white sticky-top">
+    <div class="container py-3">
+        <div class="d-flex align-items-center gap-3">
+
+            <a href="/Oldalak/Kezdo" class="text-decoration-none d-flex align-items-center gap-2">
+                <span class="fs-3">🌺</span>
+                <span class="fw-bold text-dark">Andika Vegyesbolt</span>
+            </a>
+
+            <nav class="mx-auto d-none d-md-flex gap-2 px-3 py-2 rounded-pill border shadow-sm">
+                <a class="nav-link fw-semibold px-3 py-1 rounded-pill" href="/Oldalak/Kezdo">Kezdő</a>
+                <a class="nav-link fw-semibold px-3 py-1 rounded-pill" href="/Oldalak/Termekek">Termékek</a>
+                <a class="nav-link fw-semibold px-3 py-1 rounded-pill" href="/Oldalak/Belepes">Belépés</a>
+            </nav>
+
+            <div class="ms-auto d-flex align-items-center gap-2">
+                <a class="btn btn-outline-dark position-relative rounded-circle d-grid place-items-center"
+                   style="width:44px;height:44px" href="/Oldalak/Termekek" title="Kosár">
+                    🛒
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        1
+                    </span>
+                </a>
+                <a class="btn btn-outline-dark rounded-circle d-grid place-items-center"
+                   style="width:44px;height:44px" href="/Oldalak/Belepes" title="Fiók">
+                    👤
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="bg-white">
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-7">
+                <div class="text-center mb-4">
+                    <h1 class="display-6 fw-bold">Regisztráció</h1>
+                    <p class="text-secondary mb-0">Töltsd ki az adatokat a fiók létrehozásához.</p>
+                </div>
+
+                <div class="card shadow-sm border-2 rounded-4">
+                    <div class="card-body p-4 p-md-5">
+                        <form method="post" action="/Oldalak/Regisztracio">
+                            <div class="row g-3">
+                                <div class="col-12 col-md-6">
+                                    <label class="form-label fw-semibold">Családnév</label>
+                                    <input name="Csaladnev" class="form-control form-control-lg rounded-3" placeholder="Pl.: Kovács" required />
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <label class="form-label fw-semibold">Keresztnév</label>
+                                    <input name="Keresztnev" class="form-control form-control-lg rounded-3" placeholder="Pl.: Anna" required />
+                                </div>
+
+                                <div class="col-12">
+                                    <label class="form-label fw-semibold">Email cím</label>
+                                    <input name="Email" type="email" class="form-control form-control-lg rounded-3" placeholder="pl.: anna@email.com" required />
+                                </div>
+
+                                <div class="col-12">
+                                    <label class="form-label fw-semibold">Telefonszám</label>
+                                    <input name="Telefonszam" class="form-control form-control-lg rounded-3" placeholder="+36..." />
+                                </div>
+
+                                <div class="col-12 col-md-4">
+                                    <label class="form-label fw-semibold">Irányítószám</label>
+                                    <input name="Iranyitoszam" class="form-control form-control-lg rounded-3" placeholder="Pl.: 6300" />
+                                </div>
+
+                                <div class="col-12 col-md-8">
+                                    <label class="form-label fw-semibold">Település, utca, házszám</label>
+                                    <input name="Cim" class="form-control form-control-lg rounded-3" placeholder="Pl.: Kalocsa, Fő utca 12." />
+                                </div>
+
+
+                                <div class="col-12 col-md-6">
+                                    <label class="form-label fw-semibold">Jelszó</label>
+                                    <input name="Jelszo" type="password" class="form-control form-control-lg rounded-3" placeholder="********" required />
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <label class="form-label fw-semibold">Jelszó megerősítése</label>
+                                    <input name="Jelszo2" type="password" class="form-control form-control-lg rounded-3" placeholder="********" required />
+                                </div>
+
+                                <div class="col-12 d-flex flex-column flex-sm-row gap-2 justify-content-end mt-2">
+                                    <a class="btn btn-outline-secondary btn-lg rounded-pill px-4" href="/Oldalak/Belepes">
+                                        Már van fiókom
+                                    </a>
+                                    <button type="submit" class="btn btn-lg rounded-pill px-4 text-dark kalocsa-btn">
+                                        Regisztráció
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+
+                        <hr class="my-4" />
+
+                        <div class="d-flex justify-content-between flex-wrap gap-2 small">
+                            <span class="text-secondary">A regisztrációval elfogadod a feltételeket.</span>
+                            <a class="text-decoration-none fw-semibold" href="/Oldalak/Kezdo">Vissza a kezdőlapra</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="kalocsa-strip mt-3 rounded-pill"></div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="border-top bg-white">
+    <div class="container py-4 text-center text-secondary">
+        <div class="fw-semibold text-dark">Lábléc</div>
+        <div class="small">© @DateTime.Now.Year Andika Vegyesbolt</div>
+    </div>
+</footer>
+
+<style>
+    .kalocsa-strip {
+        height: 10px;
+        background: linear-gradient(90deg, #d61f2c, #e83e8c, #1b63c6, #2b8a3e, #f2c21a );
+        box-shadow: 0 8px 18px rgba(0,0,0,.07)
+    }
+
+    .kalocsa-btn
+    {
+        border: 2px solid rgba(0,0,0,.10);
+        background: linear-gradient(90deg, rgba(214,31,44,.18), rgba(232,62,140,.16), rgba(27,99,198,.16), rgba(43,138,62,.16), rgba(242,194,26,.18) );
+        box-shadow: 0 10px 22px rgba(0,0,0,.08);
+        font-weight: 800;
+    }
+
+    .kalocsa-btn:hover {
+        filter: brightness(1.02);
+        transform: translateY(-1px);
+    }
+
+    .place-items-center {
+        place-items: center;
+    }
+</style>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\Kaposta Bence Zoltan 13.B\\Projectmunka\\Projectmunka.csproj": {}
+    "C:\\Users\\User\\Source\\Repos\\Projectmunka_2.0\\Projectmunka\\Projectmunka.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\Kaposta Bence Zoltan 13.B\\Projectmunka\\Projectmunka.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\Projectmunka_2.0\\Projectmunka\\Projectmunka.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\Kaposta Bence Zoltan 13.B\\Projectmunka\\Projectmunka.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\Projectmunka_2.0\\Projectmunka\\Projectmunka.csproj",
         "projectName": "Projectmunka",
-        "projectPath": "C:\\Users\\User\\Documents\\Kaposta Bence Zoltan 13.B\\Projectmunka\\Projectmunka.csproj",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\Projectmunka_2.0\\Projectmunka\\Projectmunka.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\Kaposta Bence Zoltan 13.B\\Projectmunka\\obj\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\Projectmunka_2.0\\Projectmunka\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
